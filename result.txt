@@ -1,0 +1,34 @@
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~
+$ cd ~/Anton1
+
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~/Anton1 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Twilight_Yeah/Anton1/.git/
+
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~/Anton1 (main)
+$ echo "second repo file" > task.txt
+
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~/Anton1 (main)
+$ git add task.txt
+warning: in the working copy of 'task.txt', LF will be replaced by CRLF the next
+ time Git touches it
+
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~/Anton1 (main)
+$ git commit -m "first time apply"
+On branch main
+nothing to commit, working tree clean
+
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~/Anton1 (main)
+$ git remote add origin https://github.com/Anton-1225/Anton1.git
+
+Twilight_Yeah@LYHRedmiG2021 MINGW64 ~/Anton1 (main)
+$ git push -u origin main
+warning: redirecting to https://github.com/Anton-1225/Anton1.git/
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 230 bytes | 230.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To http://github.com/Anton-1225/Anton1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
